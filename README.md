@@ -1,3 +1,4 @@
+
 # MNIST Digit Classification with Deep Learning (Neural Network)
 
 
@@ -11,6 +12,7 @@
     - [Building the Neural Network](#building-the-neural-network)
     - [Accuracy on test data](#accuracy-on-test-data)
     - [Confusion Matrix](#confusion-matrix)
+    - [Building a predictive system](#building-a-predictive-system)
 
 ## Project Overview
 
@@ -46,3 +48,11 @@
 - Convert the model's probability outputs into class labels.
 
 ### Confusion Matrix
+- Compute the confusion matrix to evaluate the classification performance of the neural network on the test dataset.
+- Print it.
+- Visualize it using a heatmap for better interpretability.
+
+### Building a predictive system
+- Process an input image of a handwritten digit.
+- Make it compatible with the trained neural network.
+- Predict and print the recognized digit.
