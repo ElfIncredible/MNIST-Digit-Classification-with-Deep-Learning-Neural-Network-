@@ -9,6 +9,8 @@
     - [Load the MNIST data from keras datasets](#load-the-mnist-data-from-keras-datasets)
     - [Image Labels](#image-labels)
     - [Building the Neural Network](#building-the-neural-network)
+    - [Accuracy on test data](#accuracy-on-test-data)
+    - [Confusion Matrix](#confusion-matrix)
 
 ## Project Overview
 
@@ -23,7 +25,7 @@
 
 ### Load the MNIST data from keras datasets
 - Load the MNIST dataset.
-- Inspects the structure and dimensions of the data.
+- Inspect the structure and dimensions of the data.
 - Print the pixel values and dimensions of a specific image.
 - Display an image.
 - Print its corresponding label.
@@ -37,3 +39,10 @@
 - Define a neural network architecture.
 - Compile it with an optimizer and loss function.
 - Train it on the MNIST dataset for 10 epochs.
+
+### Accuracy on test data
+- Evaluate the model on test data.
+- Inspect and displays specific images and their predictions.
+- Convert the model's probability outputs into class labels.
+
+### Confusion Matrix
