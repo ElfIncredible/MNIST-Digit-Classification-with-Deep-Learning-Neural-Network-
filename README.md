@@ -1,6 +1,6 @@
 
 # MNIST Digit Classification with Deep Learning (Neural Network)
-
+Build a neural network with TensorFlow and Keras to recognize handwritten digits from the MNIST dataset. Train, evaluate, and use it to make predictions, which you then visualize.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -15,7 +15,7 @@
     - [Building a predictive system](#building-a-predictive-system)
 
 ## Project Overview
-
+This project aims to develop a system that can recognize handwritten digits using a neural network trained on the MNIST dataset. The system takes an input image of a handwritten digit, processes it to be compatible with the trained neural network, and predicts the digit. The entire pipeline includes data preprocessing, model training, evaluation, and real-time prediction on new images.
 
 ## Dataset
 
