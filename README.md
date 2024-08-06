@@ -18,7 +18,7 @@ Build a neural network with TensorFlow and Keras to recognize handwritten digits
 This project aims to develop a system that can recognize handwritten digits using a neural network trained on the MNIST dataset. The system takes an input image of a handwritten digit, processes it to be compatible with the trained neural network, and predicts the digit. The entire pipeline includes data preprocessing, model training, evaluation, and real-time prediction on new images.
 
 ## Dataset
-
+The [MNIST dataset](https://keras.io/api/datasets/mnist/) is a benchmark dataset in the field of machine learning and computer vision, widely used for training and testing image processing systems. It consists of 70,000 grayscale images of handwritten digits from 0 to 9, with each image being 28x28 pixels in size. The dataset is divided into two parts: 60,000 images for training and 10,000 images for testing. Each image is labeled with the corresponding digit it represents, making it an excellent resource for classification tasks. The simplicity and size of the MNIST dataset make it ideal for demonstrating the capabilities of neural networks and other machine learning algorithms in recognizing handwritten digits.
 
 ## Neural Network
 ### Import Dependencies
